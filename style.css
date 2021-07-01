@@ -57,16 +57,21 @@ a{
     color: white;
 }
 /*/////Main//////*/
+body{
+    background-color: #f3f3f3;
+}
+
 .M-body{
     border: 0.1rem solid transparent;
     width: 85%;
-    height: 220rem;
+    height: 30rem;
     margin: auto;
     background-color: #f3f3f3;
 }
 /*//  1 //*/
 .First-part{
     display: flex;
+    background-color: #f3f3f3;
 }
 .First-part .campo-1{
     width: 35rem;
@@ -102,14 +107,34 @@ a{
 .M-info-1 .P-02{
     font-size: 1.6rem;
 }
+/*////Video-Part////*/
+.Video-part {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 60rem;
+}
+.video-tittle {
+    margin-top: 18rem;
+    font-size: 3rem;
+    color: #44d378;;
+    font-weight: 600;
+    text-align: center;
+}
+iframe {
+
+    width: 70rem;
+    margin-top: 2rem;
+    margin-left: 22rem;
+    height: 40rem;
+}
 /*//  2 //*/
 .Second-part{
+    background-color: #f3f3f3;
     height: 55rem;
     border: 0.1rem solid transparent;
 }
 .article-1{
     margin: auto;
-    margin-top: 18rem;
     height: 10rem;
     width: 50rem;
 }
@@ -128,6 +153,7 @@ a{
     background-color: #7BEBA4;
 }
 .article-2{
+ 
     margin: auto;
     margin-top: 2rem;
     height: 22rem;
@@ -144,6 +170,7 @@ a{
     margin-left: 9rem;
 }
 .line-2{
+    margin-top: 5rem;
     width: 85rem;
     height: 1.8rem;
     margin-left: 16rem;
@@ -151,6 +178,9 @@ a{
 }
 
 /*//  3 //*/
+.Third-part{
+    background-color: #f3f3f3;
+}
 .T-info-2{
     width: 45rem;
     height: 30rem;
@@ -203,6 +233,7 @@ a{
 }
 /*//  4 //*/
 .Fourth-part{
+    background-color: #f3f3f3;
     display: flex;
     margin-top: 3rem;
 }
@@ -229,7 +260,7 @@ a{
     width: 72rem;
     height: 1.5rem;
     margin-left: 23rem;
-    margin-top: 16rem;
+    margin-top: 14rem;
     background-color: #154360;
 }
 
@@ -242,9 +273,10 @@ a{
 }
 /*////Footer/////*/
 .info{
+    
     border: 0.01rem solid transparent;
     background-color: #154360;
-    width: 85%;
+    width: 100%;
     height: 35rem;
     margin: auto;
 }
